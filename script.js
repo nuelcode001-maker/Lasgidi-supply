@@ -105,7 +105,7 @@ displayProducts();
 
 // Replace with the real business WhatsApp number.
 // Use country code and number only, without + or spaces.
-const whatsappNumber = "2348000000000";
+const whatsappNumber = "2349135745543";
 
 productGrid.addEventListener("click", function (event) {
   const button = event.target.closest(".add-button");
@@ -133,7 +133,7 @@ productGrid.addEventListener("click", function (event) {
   }
 
   // Demo website notice
-  if (whatsappNumber === "2348000000000") {
+  if (whatsappNumber === "2349135745543") {
     alert(
       "This is a demo website! A real business WhatsApp number needs to be added before orders can be sent.",
     );
